@@ -49,4 +49,15 @@ console.log(squadre)
 
 //ora che falli e punti hanno dei valori, dobbiamo creare un nuovo array che contenga solo loro e va stampato in console 
 
-for ( let i = 0; i < squadre.lenght)
+
+const nuovoArray = [];
+
+for ( let i = 0; i < squadre.lenght; i++){
+    const puntisquadra = squadre[i].punti
+    const fallisquadra = squadre[i].falli
+
+    nuovoArray.push(puntisquadra, fallisquadra)
+
+}
+
+console.log(nuovoArray)

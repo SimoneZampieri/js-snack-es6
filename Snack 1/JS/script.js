@@ -55,4 +55,4 @@ console.log(biciLeggera)
 
 //la bici più leggera è la numero 4, di marca ''cipollini'', perciò stampiamolo a schermo
 
-document.getElementById('bicileggera').innerHTML = `La bicicletta più leggera è della marca Cipollini`
+document.getElementById('bicileggera').innerHTML = `La bicicletta più leggera è della marca ${biciLeggera.name}`

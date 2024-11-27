@@ -52,12 +52,12 @@ console.log(squadre)
 
 const nuovoArray = [];
 
-for ( let i = 0; i < squadre.length; i++){
-    const nomisquadra = squadre[i].nome
-    const fallisquadra = squadre[i].falli
-
-    nuovoArray.push(nomisquadra, fallisquadra)
-
+for (let k of squadre){
+    const datisquadra = {
+        nome: k.nome,
+        falli: k.falli,
+    }
+    nuovoArray.push(datisquadra)
 }
 
 console.log(nuovoArray)

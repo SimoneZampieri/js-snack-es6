@@ -47,16 +47,16 @@ squadre.forEach(squadra => {
 
 console.log(squadre)
 
-//ora che falli e punti hanno dei valori, dobbiamo creare un nuovo array che contenga solo loro e va stampato in console 
+//ora che falli e punti hanno dei valori, dobbiamo creare un nuovo array che contenga solo nomi e falli, stampato in console 
 
 
 const nuovoArray = [];
 
-for ( let i = 0; i < squadre.lenght; i++){
-    const puntisquadra = squadre[i].punti
+for ( let i = 0; i < squadre.length; i++){
+    const nomisquadra = squadre[i].nome
     const fallisquadra = squadre[i].falli
 
-    nuovoArray.push(puntisquadra, fallisquadra)
+    nuovoArray.push(nomisquadra, fallisquadra)
 
 }
 
